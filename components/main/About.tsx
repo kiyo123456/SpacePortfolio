@@ -41,7 +41,7 @@ const About = () => {
                             variants={slideInFromLeft(0.5)}
                             className="flex flex-col items-center w-auto h-auto rounded-full overflow-hidden border-[6px] border-[#7042f88b] bg-gradient-to-r from-purple-500 to-cyan-500"
                         >
-                            <img src="/jenin.jpg" alt="profile" width={250} />
+                            <img src="/kosei.png" alt="profile" width={250} />
                         </motion.div>
                     )}
                 </InView>
@@ -56,7 +56,7 @@ const About = () => {
                             className="Welcome-box px-[15px] py-[8px] z-[20] brder my-[20px] border-[#7042f88b] opacity-[0.9]"
                         >
                             <h1 className="Welcome-text text-[20px] font-bold">
-                                Jenin Joseph
+                                Kosei Shimizu
                             </h1>
                         </motion.div>
                     )}
@@ -71,20 +71,17 @@ const About = () => {
                             variants={slideInFromBottom}
                             className="Welcome-box px-[15px] w-[90%] md:w-3/4 py-[8px] z-[20] brder mb-[20px] border-[#7042f88b] opacity-[0.9]"
                         >
-                            <h1 className="Welcome-text text-[16px] w-full text-justify">
-                                As a passionate Full Stack Developer with
-                                expertise in React, TypeScript, Django, REST,
-                                HTML, and CSS, I excel in crafting seamless
-                                digital experiences. My journey includes roles
-                                as a MuLearn Intern, Union Chairman at SNGIST,
-                                and CEO at SNGIST IEDC, where I&apos;ve driven
-                                innovation and led digital transformations. As a
-                                leader, I&apos;ve empowered teams towards
-                                excellence and fostered an entrepreneurial
-                                spirit. I&apos;m keen to connect with
-                                like-minded tech enthusiasts and visionaries to
-                                explore new opportunities and push the
-                                boundaries of innovation.
+                            <h1 className="Welcome-text text-[16px] w-full text-center">
+                                文系大学生として学びながら、バックエンド・フルスタック開発を中心に、「人が成果を出しやすくなる仕組み」を設計・実装することに取り組んでいます。
+                                現在はインターンとしてPythonを用いた開発に携わりつつ、Laravel／PHP／SQL、生成AI（RAG・AIエージェント）などを活用したプロダクト開発や検証を行っています。
+                                <br /><br />
+                                技術そのものよりも、技術がどう社会や組織に実装され、使われ続けるかに関心があります。
+                                そのため、開発だけでなく、コミュニティ運営や後輩支援、学習環境づくりにも積極的に関わってきました。
+                                「人の成長が再現される設計」や「心理的安全性のある仕組み」を考えることが得意です。
+                                <br /><br />
+                                生成AIやソフトウェアを通じて、
+                                便利なだけでなく、人を前向きにするプロダクトをつくることが目標です。
+                                同じように、ものづくりや社会実装に関心のある方と、ぜひ繋がれたら嬉しいです。
                             </h1>
                         </motion.div>
                     )}
