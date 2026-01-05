@@ -34,7 +34,7 @@ const HeroContent = () => {
                                     >
                                         <BsStars className="text-[#b49bff] mr-[10px] h-5 w-5" />
                                         <h1 className="Welcome-text text-[13px]">
-                                            Fullstack Developer
+                                            文系エンジニア
                                         </h1>
                                     </motion.div>
                                 )}
@@ -51,7 +51,7 @@ const HeroContent = () => {
                                     >
                                         <BsStars className="text-[#b49bff] mr-[10px] h-5 w-5" />
                                         <h1 className="Welcome-text text-[13px]">
-                                            Tech Innovator
+                                            Google AI Ambassador
                                         </h1>
                                     </motion.div>
                                 )}
@@ -84,17 +84,12 @@ const HeroContent = () => {
                                     className="flex flex-col gap-6 mt-6 md:text-5xl text-4xl font-bold text-white max-w-[600px] w-auto h-auto z-20"
                                 >
                                     <span>
-                                        Coding
+                                        笑うべき人が
                                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
                                             {" "}
-                                            Dreams{" "}
+                                            笑える{" "}
                                         </span>
-                                        into
-                                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-                                            {" "}
-                                            Reality{" "}
-                                        </span>
-                                        one line at a time
+                                        世界に
                                     </span>
                                 </motion.div>
                             )}
@@ -110,19 +105,16 @@ const HeroContent = () => {
                                     className="text-sm md:text-md text-gray-400 my-5 max-w-[650px] z-30"
                                 >
                                     <li>
-                                        Finalist in the Top 100 Coders Challenge
+                                        シラバス検索システムの開発
                                     </li>
                                     <li>
-                                        Ranked within the Top 9,000 on
-                                        HackerRank
+                                        勤怠管理アプリケーションの構築
                                     </li>
                                     <li>
-                                        Participated and Completed Hacktoberfest
-                                        2023
+                                        Google AI Ambassadorとして活動
                                     </li>
                                     <li>
-                                        Served as a Mentor in Multiple
-                                        Hackathons.
+                                        文系からエンジニアへのキャリアチェンジ
                                     </li>
                                 </motion.div>
                             )}

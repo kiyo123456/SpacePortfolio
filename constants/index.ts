@@ -91,9 +91,9 @@ export const Socials = [
         link: "https://github.com/Jenin82",
     },
     {
-        name: "MuLearn",
-        src: "/mulearn.svg",
-        link: "https://app.mulearn.org/profile/jeninjoseph@mulearn",
+        name: "Instagram",
+        src: "/instagram.svg",
+        link: "https://www.instagram.com/",
     },
 ];
 
